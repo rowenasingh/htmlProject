@@ -1,0 +1,116 @@
+/*css workaround*/
+article, aside, figcaption, figure, footer, header, hgroup, nav, section {
+display: block;
+}
+
+body {
+	width:800px;
+	font-family:"Verdana";
+}
+
+header {
+	height:100px;
+	background-color:#009999;
+	color:white;
+	text-align:center;
+}
+
+/*styling for main heading in header*/
+h1 {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/*styling for subheading in header*/
+h3 {
+	font-size:20px;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+
+/*styling for subheader in main content area*/
+h2 {
+	color:#FFAA00;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+/*styling for nav bar*/
+nav {
+	height:260px;
+	width:150px;
+	float:left;
+	background-color:#FFD073;
+	border:1px solid black;
+	margin-right:20px;
+	margin-bottom:2px;
+}
+
+/*remove bullet points and space out lines*/
+li {
+	list-style-type:none;
+	line-height:3;
+}
+
+/*styling for list in nav bar*/
+ul {
+	margin:0px;
+	padding-left:0px;
+	text-align:center;
+}
+
+/*styling for individivual links*/
+a {
+	color:#A64B00;
+	font-weight:bold;
+}
+
+/*main content area*/
+.maincontent {
+	background-color:#006363;
+	color:white;
+	font-size:14px;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+
+/*move last paragraphs to the left*/
+.lastpar {
+	padding-left:15px;
+	padding-right:15px;
+	margin-top:0px;
+}
+
+/*styling for figure with image*/
+figure {
+	width:200px;
+	height:260px;
+	float:right;
+	margin-left:20px;
+	margin-bottom:0px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+figcaption {
+	padding-bottom:0px;
+	margin-top:0px;
+	text-align:center;
+	color:#FFAA00;
+	font-size:15px;
+}
+
+footer {
+	height:50px;
+	background-color:#FFD073;
+	font-size:11px;
+	text-align:center;
+	color:#A64B00;
+}
+
+#footerp {
+	margin:0px;
+	padding:5px 0px 0px 0px;
+}

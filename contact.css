@@ -1,0 +1,103 @@
+/*Add CSS styling below*/
+body {
+	width:800px;
+	font-family:"Verdana";
+}
+header {
+	height:100px;
+	background-color:#009999;
+	color:white;
+	text-align:center;
+}
+h1 {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+h3 {
+	font-size:20px;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+h2 {
+	color:#FFAA00;
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:25px;
+	text-align:center;
+}
+nav {
+	height:260px;
+	width:150px;
+	float:left;
+	background-color:#FFD073;
+	border:1px solid black;
+}
+li {
+	list-style-type:none;
+	line-height:3;
+}
+ul {
+	margin:0px;
+	padding-left:0px;
+	text-align:center;
+}
+a {
+	color:#A64B00;
+	font-weight:bold;
+}
+aside.progress {
+	background-color:#EA77AF;
+	padding-top:10px;
+	width:275px;
+	height:72px;
+	border:1px solid black;
+	font-weight:bold;
+	color:black;
+	float:right;
+	text-align:center;
+}
+.maincontent {
+	background-color:#006363;
+	color:white;
+	font-size:15px;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+p:not(#footerp) {
+	margin-left:170px;
+}
+div.formcontent {
+	background-color:#FFE09F;
+	color:black;
+	margin-left:170px;
+	margin-right:20px;
+	padding:10px 10px 45px 10px;
+}
+div.leftside {
+	float:left;
+	padding-right:50px;
+}
+input {
+	margin-bottom:10px;
+}
+input[type="submit"] {
+	background-color:#006363;
+	color:white;
+}
+div.button {
+	margin-top:75px;
+	width:175px;
+	margin-left:auto;
+	margin-right:auto;
+}
+footer {
+	height:50px;
+	background-color:#FFD073;
+	font-size:11px;
+	text-align:center;
+	color:#A64B00;
+}
+#footerp {
+	margin:0px;
+	padding:5px 0px 0px 0px;
+}

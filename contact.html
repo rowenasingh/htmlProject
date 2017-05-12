@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="contact.css">
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+        <h1>Let's Travel the World!</h1>
+        <h3>It's the Journey AND the Destination</h3>
+    </header>
+    <!--  Page content goes here -->
+    <section>
+    <!-- navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destination</a></li>
+            <li><a href="special.html">Special</a></li>
+            <li><a href="blog.html"> Travel Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- progress bar -->
+    <aside class="progress">
+        Charity Fundraiser Status<br>
+        <progress value="730" max="1000"></progress><br>
+        $730 of $1,000 Goal
+    </aside>
+    <article class="maincontent">
+    <h2>Contact Us</h2>
+    <p>Tell us about yourself and how we can help you (* = required field) :</p>
+    <div class="formcontent">
+    <!-- FORM BEGINS HERE -->
+    <form autocomplete="off">
+        <!-- div #1 -->
+        <div class="leftside">
+        Name* <br>
+        <input type="text" size="32" name="fullname" placeholder="Jane Doe" required autofocus> <br>
+        Email* <br>
+        <input type="email" size="32" name="email" required> <br>
+        Phone* <br>
+        <input type="tel" size="32" name="phone" placeholder="(xxx)xxx-xxxx" required> <br>
+        Personal Website <br>
+        <input type="url" size="32" name="website"> <br>
+        </div>
+        <!-- div #2 -->
+        <div class="rightside">
+            Next Destination <br>
+            <input type="text" size="32" name="nextdest" list="cities"> 
+            <datalist id="cities">
+                <option value="Beijing">
+                <option value="Lisbon">
+                <option value="Paris">
+                <option value="Sydney">
+                <option value="Tokyo">
+                <option value="Washington D.C.">
+            </datalist>
+            <br>
+            Expected Date of Departure <br>
+            <input type="date" size="20" min="2017-03-03" name="dateofdep"> <br>
+            Number of Nights on Trip <br>
+            <input type="number" min="1" max="30" value="6" name="numofnights"> <br>
+        </div>
+        <div class="button">
+            <input type="submit" name="submit" value="Help Me Book My Trip!">
+        </div>
+    </form>
+    </div>
+    </article>
+    </section>
+    <!-- footer -->
+    <footer>
+        <p id="footerp">
+            &copy; Travel The World LLC <br>
+            123 Main Street <br>
+            Somewhere, USA 99999
+        </p>
+    </footer>
+
+  </body>
+
+</html>
